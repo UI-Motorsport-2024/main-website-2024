@@ -29,7 +29,7 @@ const Footer = () => {
                   <a
                     href={item.href}
                     key={index}
-                    className="font-bold text-white text-opacity-80"
+                    className="font-bold text-white text-opacity-30"
                   >
                     {item.text}
                   </a>
