@@ -1,7 +1,7 @@
 import React from 'react'
 
 const HomeModule = () => {
-  return <main>HomeModule</main>
+  return <main className="min-h-screen">HomeModule</main>
 }
 
 export default HomeModule
