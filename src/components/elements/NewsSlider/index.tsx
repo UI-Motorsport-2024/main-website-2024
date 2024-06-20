@@ -33,7 +33,7 @@ const Box = () => {
 
 const HomeSlider = () => {
     return (
-        <div className="flex flex-col justify-center w-full h-full  overflow-hidden">
+        <div className="flex flex-col justify-center w-full h-full overflow-hidden">
             <div className="flex w-full h-[84%] overflow-x-auto px-8 custom-scrollbar">
                 <div className="relative flex space-x-10 h-full">
                     <Box></Box>

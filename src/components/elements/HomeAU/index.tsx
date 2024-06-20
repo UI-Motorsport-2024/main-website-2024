@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 const AboutUsSection = () => {
     return(
-        <div className="relative text-white py-12 md:h-[50vh] h-[25vh]">
+        <div className="relative text-white py-12 md:h-[50vh] h-[30vh]">
 
             {/* checkered flag right */}
-            <div className="absolute top-0 bottom-0 m-auto w-2/12 right-0 flex flex-col justify-center">
+            <div className="absolute top-0 bottom-0 m-auto w-1/3 md:w-1/5 lg:w-2/12 right-0 flex flex-col justify-center">
                 <Image 
                     src='/checkered-flag.png'
                     alt=''
@@ -17,7 +17,7 @@ const AboutUsSection = () => {
             </div>
 
             {/* checkered flag right */}
-            <div className="absolute top-0 bottom-0 m-auto w-2/12 left-0 flex flex-col justify-center">
+            <div className="absolute top-0 bottom-0 m-auto w-1/3 md:w-1/5 lg:w-2/12 left-0 flex flex-col justify-center">
                 <Image 
                     src='/checkered-flag.png'
                     alt=''
@@ -33,12 +33,12 @@ const AboutUsSection = () => {
                     <div className="flex w-11/12 h-[80%]">
                         {/* text + button */}
                         <div className="flex flex-col md:w-3/5 w-full justify-between">
-                            <h1>About Us</h1>
-                            <p>Hey! interested in us yet? hit the Button below to know more about what we do and stories behind us!!</p>
+                            <h1 className="md:text-lg text-sm">About Us</h1>
+                            <p className="md:text-sm text-[10px]">Hey! interested in us yet? hit the Button below to know more about what we do and stories behind us!!</p>
                             <button 
-                            className="rounded-lg text-black py-2"
+                            className="rounded-lg md:text-lg text-sm font-bold text-black h-1/4"
                             style={{background: 'linear-gradient(90.41deg, #C381C3 0%, #E9EE00 93%)'}}
-                            >Our Team</button>
+                            >About Us</button>
                         </div>
 
                         {/* image */}

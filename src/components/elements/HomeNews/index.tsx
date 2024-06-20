@@ -1,6 +1,7 @@
 import React from "react";
 import Image from 'next/image';
 import './styles.css';
+import HomeNewsCarousel from "../HomeNewsCarousel";
 
 const Box = () => {
     return (
@@ -10,7 +11,7 @@ const Box = () => {
             </div>
 
             {/* ball marker */}
-            <div className="absolute bottom-0 left-0 right-0 mx-auto w-[40px] h-[40px] z-[10] rounded-full" style={{
+            <div className="absolute bottom-0 left-0 right-0 mx-auto lg:w-[40px] w-[20px] lg:h-[40px] h-[20px] z-[10] rounded-full" style={{
                 background: 'linear-gradient(93.47deg, #E7A82D 16.03%, #EEC532 83.84%)',
                 boxShadow: '1px 2px 4px rgba(0, 0, 0, 0.15)'
             }} />
@@ -48,6 +49,7 @@ const HomeNews = () => {
             {/* Main content */}
             <div className="relative inset-0 flex flex-col justify-between items-center z-9 w-full h-full pt-4">
 
+                {/* top part */}
                 <div className="flex w-full h-[40%] justify-between items-center">
                     <div className="w-2/12">
                         <Image
@@ -71,7 +73,7 @@ const HomeNews = () => {
                                 <Box></Box>
                                 <Box></Box>
                                 <Box></Box>
-                                <div className="absolute bottom-[11px] z-[5] w-full h-[15px] bg-[#0D0E17] bg-opacity-100 rounded-[12px]" style={{margin: "0"}} />
+                                <div className="absolute lg:bottom-[11px] bottom-[6px] z-[5] w-full lg:h-[15px] h-[8px] bg-[#0D0E17] bg-opacity-100 rounded-[12px]" style={{margin: "0"}} />
                             </div>
 
                         </div>
@@ -91,6 +93,13 @@ const HomeNews = () => {
                     
                 </div>
 
+                {/* carousel */}
+                <div className="md:w-3/4 w-4/5 h-[60%]">
+                    <div className="w-full h-[80%] p-6">
+                        <HomeNewsCarousel />
+                    </div>
+                </div>
+
             </div>
         </div>
 
@@ -99,3 +108,6 @@ const HomeNews = () => {
 
 export default HomeNews;
  
+
+
+// filter: drop-shadow(0px 5.38875px 53.8875px rgba(255, 255, 255, 0.47));

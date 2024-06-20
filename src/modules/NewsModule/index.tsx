@@ -21,13 +21,13 @@ const NewsModule = () => {
         {/* bottom bg decor for responsiveness */}
         <div className="absolute bottom-[-7%] w-full sm:hidden block">
             <Image
-                    src="/sobek-news.png"
-                    alt="Wavy Decoration"
-                    layout="responsive"
-                    width={100}
-                    height={100}    
-                    style={{transform: 'scaleY(-1)'}}  
-                />
+                src="/sobek-news.png"
+                alt="Wavy Decoration"
+                layout="responsive"
+                width={100}
+                height={100}    
+                style={{transform: 'scaleY(-1)'}}  
+            />
         </div>
 
 
