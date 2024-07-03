@@ -5,7 +5,7 @@ import { footerLink } from '@/components/constant/footerLink'
 
 const Footer = () => {
   return (
-    <footer className="bg-[#252525] rounded-t-3xl p-9 px-16">
+    <footer className="relative bg-[#252525] rounded-t-3xl p-9 px-16 z-20">
       <div className="w-full flex justify-center gap-6">
         {socialMedia.map((item, index) => {
           return (
