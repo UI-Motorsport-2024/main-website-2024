@@ -7,14 +7,16 @@ import HomeInfo from '@/components/elements/HomeInfo'
 import React from 'react'
 
 const HomeModule = () => {
-  return <main className="min-h-screen">
-    <Hero />
-    <AboutUsSection />
-    <OurTeamSection />
-    <HomeDivider />
-    <HomeNews />
-    <HomeInfo />
-  </main>
+  return (
+    <main className="min-h-screen">
+      <Hero />
+      <AboutUsSection />
+      <OurTeamSection />
+      <HomeDivider />
+      <HomeNews />
+      <HomeInfo />
+    </main>
+  )
 }
 
 export default HomeModule
