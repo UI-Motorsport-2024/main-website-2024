@@ -58,10 +58,57 @@ const HomeInfo = () => {
         <div className="w-[1050px] bg-[#1D1D24] border-2 border-[#5D5555] flex p-9 justify-between rounded-2xl">
           <div className="w-[286px] h-[490px] bg-[#3A3A3A] rounded-3xl"></div>
           <div className="w-[638px] bg-[#6B6B6B33] rounded-2xl px-8 py-6 flex flex-col items-center gap-5">
-            <div className="w-full h-[197px] bg-[#252525] rounded-[20px]"></div>
-            <div className="w-full h-[197px] bg-[#252525] rounded-[20px]"></div>
-            <div className="w-full h-[197px] bg-[#252525] rounded-[20px]"></div>
-            <div className="w-full h-[197px] bg-[#252525] rounded-[20px]"></div>
+            <div className="w-full h-[197px] bg-[#252525] rounded-[20px] py-5 px-6 flex flex-col gap-4">
+              <div className="p-2 text-white text-center bg-[#EBB730A8] rounded-xl text-2xl font-bold">
+                <h3>Lomba Apa Ini?</h3>
+              </div>
+
+              <p className="text-white font-semibold text-base">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                enim justo, molestie eu nulla nec, aliquam lobortis tellus. Duis
+                placerat luctus sem id interdum. Aliquam vehicula elit maximus
+                neque auctor, id euismod risus condimentum.
+              </p>
+            </div>
+
+            <div className="w-full h-[197px] bg-[#252525] rounded-[20px] py-5 px-6 flex flex-col gap-4">
+              <div className="p-2 text-black text-center bg-[#FFE56B] rounded-xl text-2xl font-bold">
+                <h3>Apa Yang Kami Dapat?</h3>
+              </div>
+
+              <p className="text-white font-semibold text-base">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                enim justo, molestie eu nulla nec, aliquam lobortis tellus. Duis
+                placerat luctus sem id interdum. Aliquam vehicula elit maximus
+                neque auctor, id euismod risus condimentum.
+              </p>
+            </div>
+
+            <div className="w-full h-[197px] bg-[#252525] rounded-[20px] py-5 px-6 flex flex-col gap-4">
+              <div className="p-2 text-[#FFAF76] text-center bg-[#9F98FB0D] rounded-xl text-2xl font-bold">
+                <h3>Penghargaan</h3>
+              </div>
+
+              <p className="text-white font-semibold text-base">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                enim justo, molestie eu nulla nec, aliquam lobortis tellus. Duis
+                placerat luctus sem id interdum. Aliquam vehicula elit maximus
+                neque auctor, id euismod risus condimentum.
+              </p>
+            </div>
+
+            <div className="w-full h-[197px] bg-[#252525] rounded-[20px] py-5 px-6 flex flex-col gap-1">
+              <div className="text-white rounded-xl text-2xl font-bold">
+                <h3>Kesimpulan Pada Akhir Hari</h3>
+              </div>
+
+              <p className="text-white font-semibold text-base">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                enim justo, molestie eu nulla nec, aliquam lobortis tellus. Duis
+                placerat luctus sem id interdum. Aliquam vehicula elit maximus
+                neque auctor, id euismod risus condimentum.
+              </p>
+            </div>
           </div>
         </div>
 
